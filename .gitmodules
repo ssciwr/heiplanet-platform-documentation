@@ -1,0 +1,9 @@
+[submodule "heiplanet-db"]
+	path = heiplanet-db
+	url = https://github.com/ssciwr/heiplanet-db
+[submodule "heiplanet-data"]
+	path = heiplanet-data
+	url = https://github.com/ssciwr/heiplanet-data
+[submodule "onehealth-model-bbackend"]
+	path = onehealth-model-bbackend
+	url = https://github.com/ssciwr/onehealth-model-backend
