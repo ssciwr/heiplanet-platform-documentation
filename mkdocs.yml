@@ -1,0 +1,36 @@
+site_name: Heiplanet Platform Documentation
+repo_url: https://github.com/ssciwr/heiplanet-platform-documentation
+repo_name: "ssciwr/heiplanet-platform-documentation"
+copyright: Copyright &copy; 2025, Scientific Software Center, Heidelberg University.
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - palette.toggle
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Overview: index.md
+  - Heiplanet DB: '!include ./heiplanet-db/mkdocs.yml'
+  - Heiplanet Data: '!include ./heiplanet-data/mkdocs.yml'
+  - Model Backend: '!include ./onehealth-model-bbackend/mkdocs.yml'
+
+plugins:
+  - search
+  - monorepo
+  - include-markdown
