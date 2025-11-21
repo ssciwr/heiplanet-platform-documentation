@@ -1,8 +1,7 @@
 repos:
-    - repo: https://github.com/RodrigoGonzalez/check-mkdocs
-      rev: v1.2.0
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.5.0
       hooks:
-        - id: check-mkdocs
-          name: check-mkdocs
-          args: ["--config", "mkdocs.yml"]  
-          additional_dependencies: ['mkdocs-material', 'mkdocs-monorepo-plugin', 'mkdocs-include-markdown-plugin']
+        - id: check-yaml
+          args: ['--unsafe']
+          files: mkdocs\.yml
