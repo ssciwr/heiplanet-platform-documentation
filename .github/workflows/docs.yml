@@ -28,4 +28,5 @@ jobs:
           restore-keys: |
             mkdocs-material-${{ env.cache_id }}-
       - run: pip install -r requirements.txt
+      - run: pwd
       - run: mkdocs gh-deploy --force
