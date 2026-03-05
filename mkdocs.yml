@@ -28,7 +28,7 @@ nav:
   - Overview: index.md
   - Heiplanet DB: '!include ./heiplanet-db/mkdocs.yml'
   - Heiplanet Data: '!include ./heiplanet-data/mkdocs.yml'
-  - Model Backend: '!include ./onehealth-model-bbackend/mkdocs.yml'
+  - Model Backend: '!include ./heiplanet-models/mkdocs.yml'
 
 plugins:
   - search

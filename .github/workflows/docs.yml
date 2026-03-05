@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
@@ -27,5 +29,8 @@ jobs:
           path: .cache 
           restore-keys: |
             mkdocs-material-${{ env.cache_id }}-
-      - run: pip install -r requirements-dev.txt
+      - run: pip install -r requirements.txt
+      - run: |
+            pwd
+            ls -la
       - run: mkdocs gh-deploy --force
