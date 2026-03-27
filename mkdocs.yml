@@ -29,6 +29,7 @@ nav:
   - Heiplanet DB: '!include ./heiplanet-db/mkdocs.yml'
   - Heiplanet Data: '!include ./heiplanet-data/mkdocs.yml'
   - Model Backend: '!include ./heiplanet-models/mkdocs.yml'
+  - Heiplanet frontend: '!include ./heiplanet-frontend/mkdocs.yml'
 
 plugins:
   - search
