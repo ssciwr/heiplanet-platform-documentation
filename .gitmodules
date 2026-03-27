@@ -9,5 +9,5 @@
 	url = https://github.com/ssciwr/heiplanet-models
 [submodule "heiplanet-frontend"]
 	path = heiplanet-frontend
-	url = https://github.com/ssciwr/heiplanet-frontend.git
+	url = https://github.com/ssciwr/heiplanet-frontend
 	branch = align-apis

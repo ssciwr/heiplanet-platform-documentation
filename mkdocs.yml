@@ -26,10 +26,10 @@ theme:
 
 nav:
   - Overview: index.md
-  - heiplanet database: '!include ./heiplanet-db/mkdocs.yml'
-  - heiplanet data: '!include ./heiplanet-data/mkdocs.yml'
-  - heiplanet models: '!include ./heiplanet-models/mkdocs.yml'
-  - heiplanet frontend: '!include ./heiplanet-frontend/mkdocs.yml'
+  - Heiplanet database: '!include ./heiplanet-db/mkdocs.yml'
+  - Heiplanet data: '!include ./heiplanet-data/mkdocs.yml'
+  - Heiplanet models: '!include ./heiplanet-models/mkdocs.yml'
+  - Heiplanet frontend: '!include ./heiplanet-frontend/mkdocs.yml'
 
 plugins:
   - search
